@@ -12,7 +12,13 @@ df=pd.read_csv("Physics.csv")
 # plt.show()
 
 # 2. Highest attendance student in Last five rows
-x=df.tail().iloc[:,1]
-y=df.tail().iloc[:,3]
+# x=df.tail().iloc[:,1]
+# y=df.tail().iloc[:,3]
+# plt.bar(x,y)
+# plt.show()
+
+# 3. Student having highest attendance between 10-20 rows. 
+x=df.iloc[10:20,1]
+y=df.iloc[10:20,3]
 plt.bar(x,y)
 plt.show()
