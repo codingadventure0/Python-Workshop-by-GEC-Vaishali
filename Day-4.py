@@ -18,6 +18,11 @@ print(a - b)
 print(a * b)  
 print(a / b)  
 
+# Direct calculation method:
+print("Addition of 9 and 9 is:",9+9)
+print("Difference of 9 and 5 is:",9-5)
+print("Product of 9 and 7 is:",9*7)
+
 #Variables and Data Types
 integer_var = 101
 float_var = 101.1
