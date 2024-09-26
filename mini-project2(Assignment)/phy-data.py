@@ -24,7 +24,7 @@ df=pd.read_csv("Physics.csv")
 # plt.show()
 
 # 4. Student having highest attendance overall. 
-x=df.iloc[:,1]
+x=df.iloc[:,0]
 y=df.iloc[:,3]
 plt.bar(x,y)
 plt.show()
