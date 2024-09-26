@@ -1,8 +1,9 @@
 from tkinter import *
+from tkinter import file
 
 root = Tk()
-root.title("EVM")
-root.geometry("500x500")
+root.title("NotePad")
+root.geometry("500x700")
 
 def save_file():
     file=filedialog.asksaveasfile(defaultextension=".txt", filetypes=[("Text Files", "*.txt")])
